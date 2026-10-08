@@ -91,8 +91,8 @@ scripts additionally build the .docx report and the .pdf disclosure.
 ## Reproducing the analysis
 
 ```bash
-git clone https://github.com/Lengoasa03/Putting-numbers-to-the-Nattrass-story.git
-cd Putting-numbers-to-the-Nattrass-story
+git clone https://github.com/Lengoasa03/Putting-numbers-to-the-Nattrass-Story.git
+cd Putting-numbers-to-the-Nattrass-Story
 pip install -r requirements.txt
 ```
 
