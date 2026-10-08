@@ -153,7 +153,7 @@ differently:
 
 Claude (Anthropic) was used for code, for locating figures inside long primary
 sources, and for editing. Every number in the report comes from running the
-included code on the cited data. The interpretation and the conclusions are
+included code on the cited data. The decision making, interpretation and conclusions are
 mine. `output/report/AI_use_disclosure.pdf` sets this out in full.
 
 ## Licence
