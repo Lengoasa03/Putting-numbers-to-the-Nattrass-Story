@@ -1,0 +1,130 @@
+ECOH621 Part 3 -- Real private investment growth: regression results
+Model: inv_growth ~ gdp_growth_lag1 + real_rate + deficit_gdp
+HAC (Newey-West) standard errors, maxlags = 1
+deficit_gdp is POSITIVE when the budget is in deficit.
+
+==============================================================================
+MAIN SPECIFICATION -- full available sample, single current vintage
+==============================================================================
+Sample: 1994-2024   N = 31
+R-squared: 0.4225   Adj R-squared: 0.3583
+
+variable                  coef   HAC s.e.       t        p   OLS s.e.
+---------------------------------------------------------------------
+Intercept               8.2636     2.7007    3.06   0.0022     3.2340
+gdp_growth_lag1         0.5211     0.3889    1.34   0.1803     0.4899
+real_rate              -0.0616     0.3718   -0.17   0.8684     0.3231
+deficit_gdp            -1.8312     0.5958   -3.07   0.0021     0.5921
+
+------------------------------------------------------------------------------
+DIAGNOSTICS (on the OLS fit)
+------------------------------------------------------------------------------
+Durbin-Watson                : 1.184   (2 = no first-order autocorrelation)
+Breusch-Godfrey AR(1)        : LM = 5.008, p = 0.0252   -> autocorrelation
+Breusch-Pagan heteroskedast. : LM = 3.752, p = 0.2896   -> no evidence of heteroskedasticity
+Jarque-Bera normality        : JB = 0.082, p = 0.9599   -> normality not rejected
+
+Variance inflation factors (multicollinearity; >10 is a concern):
+   gdp_growth_lag1     : 1.32
+   real_rate           : 1.16
+   deficit_gdp         : 1.50
+
+==============================================================================
+SAMPLE SPLITS
+==============================================================================
+
+Split at 1994 (requested in the brief):
+   Observations before 1994: 0; from 1994: 31
+   NOT ESTIMABLE. The supplied deficit and policy-rate series both begin in
+   1994, so there are zero pre-1994 observations for two of the three
+   regressors. A pre/post-1994 split cannot be run on this data at all -- this
+   is a data-availability limit, not a modelling choice, and is reported as
+   such rather than approximated with a shorter or different specification.
+
+Split at 2008 (requested in the brief):
+   Chow F(4, 23) = 4.015, p = 0.0130   -> structural break
+   N before 2008 = 14, N from 2008 = 17
+
+==============================================================================
+SUB-SAMPLE A -- pre-2008
+==============================================================================
+Sample: 1994-2007   N = 14
+R-squared: 0.5056   Adj R-squared: 0.3572
+
+variable                  coef   HAC s.e.       t        p   OLS s.e.
+---------------------------------------------------------------------
+Intercept               9.9504     4.4124    2.26   0.0241     5.0740
+gdp_growth_lag1         0.8699     0.5482    1.59   0.1126     0.8675
+real_rate              -1.3743     0.3464   -3.97   0.0001     0.5081
+deficit_gdp             1.6658     0.6276    2.65   0.0080     1.0088
+
+==============================================================================
+SUB-SAMPLE B -- 2008 onwards
+==============================================================================
+Sample: 2008-2024   N = 17
+R-squared: 0.5208   Adj R-squared: 0.4102
+
+variable                  coef   HAC s.e.       t        p   OLS s.e.
+---------------------------------------------------------------------
+Intercept              10.5612     2.3090    4.57   0.0000     3.8288
+gdp_growth_lag1         0.2972     0.3000    0.99   0.3219     0.4798
+real_rate              -0.8712     0.5820   -1.50   0.1344     0.8616
+deficit_gdp            -2.3110     0.5058   -4.57   0.0000     0.7592
+
+==============================================================================
+SENSITIVITY (trap #4 / trap #6): lagged GDP growth from Boshoff & Fourie's
+spliced factor-cost series instead of SARB market prices.
+This tests whether the demand-channel result depends on the GDP vintage and
+on B&F's choice to link their 1911-68 series to SARB's by the 1946-59 mean
+difference. B&F ends in 2017, so this sample is shorter.
+==============================================================================
+==============================================================================
+SENSITIVITY -- Boshoff & Fourie GDP vintage
+==============================================================================
+Sample: 1994-2018   N = 25
+R-squared: 0.2510   Adj R-squared: 0.1440
+
+variable                  coef   HAC s.e.       t        p   OLS s.e.
+---------------------------------------------------------------------
+Intercept               8.1208     4.9709    1.63   0.1023     4.5759
+gdp_growth_bf_lag1      0.2644     0.9193    0.29   0.7736     0.8073
+real_rate               0.0503     0.4043    0.12   0.9009     0.3704
+deficit_gdp            -1.7054     1.1299   -1.51   0.1312     0.8626
+
+==============================================================================
+ROBUSTNESS -- dropping 2009 and 2020 (the GFC and COVID recessions)
+==============================================================================
+MOTIVATION (trap #7). In 2009 and 2020 the deficit exploded AND private
+investment collapsed -- but both were caused by the recession, not by each
+other. Automatic stabilisers widen the deficit in a downturn by construction.
+So a negative deficit coefficient in a sample containing those years may be
+measuring reverse causation (recession -> deficit) rather than the
+confidence channel GEAR posited (deficit -> lost confidence -> investment).
+These two years are 2 of 31 observations but are by far the largest outliers
+in both variables. Dropping them is a diagnostic, not a preferred estimate.
+
+==============================================================================
+ROBUSTNESS -- full sample excluding 2009 and 2020
+==============================================================================
+Sample: 1994-2024   N = 29
+R-squared: 0.3332   Adj R-squared: 0.2532
+
+variable                  coef   HAC s.e.       t        p   OLS s.e.
+---------------------------------------------------------------------
+Intercept               4.4900     2.3926    1.88   0.0606     2.9465
+gdp_growth_lag1         0.9408     0.3244    2.90   0.0037     0.4225
+real_rate              -0.0275     0.3294   -0.08   0.9335     0.2701
+deficit_gdp            -0.6966     0.4834   -1.44   0.1495     0.6097
+
+==============================================================================
+ROBUSTNESS -- 2008 onwards, excluding 2009 and 2020
+==============================================================================
+Sample: 2008-2024   N = 15
+R-squared: 0.5752   Adj R-squared: 0.4593
+
+variable                  coef   HAC s.e.       t        p   OLS s.e.
+---------------------------------------------------------------------
+Intercept               2.0756     2.9500    0.70   0.4817     3.0060
+gdp_growth_lag1         0.7469     0.1444    5.17   0.0000     0.2806
+real_rate              -0.9844     0.3178   -3.10   0.0019     0.4871
+deficit_gdp            -0.1431     0.6564   -0.22   0.8274     0.6850

@@ -1,0 +1,18 @@
+# Course materials that are not mine to redistribute.
+# The analysis cites both; neither is needed to run the code.
+resources/Nattrass_High productivity now_GEAR.pdf
+resources/Week 6-7_Assignment brief.pdf
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+
+# Word and Excel lock files
+~$*
+
+# OS
+.DS_Store
+Thumbs.db

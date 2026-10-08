@@ -1,0 +1,116 @@
+year,inv_growth,gdp_growth_sarb,gdp_growth_bf,real_rate,deficit_gdp,gdp_growth,gdp_growth_source,gdp_growth_lag1,gdp_growth_bf_lag1
+1911,,,,,,,,,
+1912,,,1.93,,,1.93,Boshoff & Fourie factor cost,,
+1913,,,-0.41,,,-0.41,Boshoff & Fourie factor cost,1.93,1.93
+1914,,,-4.07,,,-4.07,Boshoff & Fourie factor cost,-0.41,-0.41
+1915,,,-3.57,,,-3.57,Boshoff & Fourie factor cost,-4.07,-4.07
+1916,,,5.2,,,5.2,Boshoff & Fourie factor cost,-3.57,-3.57
+1917,,,-0.44,,,-0.44,Boshoff & Fourie factor cost,5.2,5.2
+1918,,,3.93,,,3.93,Boshoff & Fourie factor cost,-0.44,-0.44
+1919,,,10.09,,,10.09,Boshoff & Fourie factor cost,3.93,3.93
+1920,,,-11.05,,,-11.05,Boshoff & Fourie factor cost,10.09,10.09
+1921,,,-2.92,,,-2.92,Boshoff & Fourie factor cost,-11.05,-11.05
+1922,,,7.25,,,7.25,Boshoff & Fourie factor cost,-2.92,-2.92
+1923,,,12.04,,,12.04,Boshoff & Fourie factor cost,7.25,7.25
+1924,,,6.0,,,6.0,Boshoff & Fourie factor cost,12.04,12.04
+1925,,,5.13,,,5.13,Boshoff & Fourie factor cost,6.0,6.0
+1926,,,4.95,,,4.95,Boshoff & Fourie factor cost,5.13,5.13
+1927,,,3.97,,,3.97,Boshoff & Fourie factor cost,4.95,4.95
+1928,,,3.55,,,3.55,Boshoff & Fourie factor cost,3.97,3.97
+1929,,,-0.05,,,-0.05,Boshoff & Fourie factor cost,3.55,3.55
+1930,,,-5.8,,,-5.8,Boshoff & Fourie factor cost,-0.05,-0.05
+1931,,,-6.23,,,-6.23,Boshoff & Fourie factor cost,-5.8,-5.8
+1932,,,-1.97,,,-1.97,Boshoff & Fourie factor cost,-6.23,-6.23
+1933,,,17.19,,,17.19,Boshoff & Fourie factor cost,-1.97,-1.97
+1934,,,11.58,,,11.58,Boshoff & Fourie factor cost,17.19,17.19
+1935,,,14.98,,,14.98,Boshoff & Fourie factor cost,11.58,11.58
+1936,,,11.12,,,11.12,Boshoff & Fourie factor cost,14.98,14.98
+1937,,,3.71,,,3.71,Boshoff & Fourie factor cost,11.12,11.12
+1938,,,0.17,,,0.17,Boshoff & Fourie factor cost,3.71,3.71
+1939,,,5.73,,,5.73,Boshoff & Fourie factor cost,0.17,0.17
+1940,,,6.87,,,6.87,Boshoff & Fourie factor cost,5.73,5.73
+1941,,,7.96,,,7.96,Boshoff & Fourie factor cost,6.87,6.87
+1942,,,2.31,,,2.31,Boshoff & Fourie factor cost,7.96,7.96
+1943,,,0.84,,,0.84,Boshoff & Fourie factor cost,2.31,2.31
+1944,,,2.44,,,2.44,Boshoff & Fourie factor cost,0.84,0.84
+1945,,,5.23,,,5.23,Boshoff & Fourie factor cost,2.44,2.44
+1946,,,9.62,,,9.62,Boshoff & Fourie factor cost,5.23,5.23
+1947,,,2.18,,,2.18,Boshoff & Fourie factor cost,9.62,9.62
+1948,,,7.4,,,7.4,Boshoff & Fourie factor cost,2.18,2.18
+1949,,,3.59,,,3.59,Boshoff & Fourie factor cost,7.4,7.4
+1950,,,5.55,,,5.55,Boshoff & Fourie factor cost,3.59,3.59
+1951,,,4.28,,,4.28,Boshoff & Fourie factor cost,5.55,5.55
+1952,,,3.24,,,3.24,Boshoff & Fourie factor cost,4.28,4.28
+1953,,,4.32,,,4.32,Boshoff & Fourie factor cost,3.24,3.24
+1954,,,6.32,,,6.32,Boshoff & Fourie factor cost,4.32,4.32
+1955,,,5.37,,,5.37,Boshoff & Fourie factor cost,6.32,6.32
+1956,,,5.75,,,5.75,Boshoff & Fourie factor cost,5.37,5.37
+1957,,,4.25,,,4.25,Boshoff & Fourie factor cost,5.75,5.75
+1958,,,2.47,,,2.47,Boshoff & Fourie factor cost,4.25,4.25
+1959,,,4.25,,,4.25,Boshoff & Fourie factor cost,2.47,2.47
+1960,,,2.93,,,2.93,Boshoff & Fourie factor cost,4.25,4.25
+1961,,,4.32,,,4.32,Boshoff & Fourie factor cost,2.93,2.93
+1962,,,6.11,,,6.11,Boshoff & Fourie factor cost,4.32,4.32
+1963,,,7.31,,,7.31,Boshoff & Fourie factor cost,6.11,6.11
+1964,,,7.61,,,7.61,Boshoff & Fourie factor cost,7.31,7.31
+1965,,,6.51,,,6.51,Boshoff & Fourie factor cost,7.61,7.61
+1966,,,4.52,,,4.52,Boshoff & Fourie factor cost,6.51,6.51
+1967,,,7.14,,,7.14,Boshoff & Fourie factor cost,4.52,4.52
+1968,,,3.88,,,3.88,Boshoff & Fourie factor cost,7.14,7.14
+1969,,,3.69,,,3.69,Boshoff & Fourie factor cost,3.88,3.88
+1970,,,5.1,,,5.1,Boshoff & Fourie factor cost,3.69,3.69
+1971,,,4.19,,,4.19,Boshoff & Fourie factor cost,5.1,5.1
+1972,,,1.95,,,1.95,Boshoff & Fourie factor cost,4.19,4.19
+1973,,,4.96,,,4.96,Boshoff & Fourie factor cost,1.95,1.95
+1974,,,6.71,,,6.71,Boshoff & Fourie factor cost,4.96,4.96
+1975,,,1.57,,,1.57,Boshoff & Fourie factor cost,6.71,6.71
+1976,,,2.11,,,2.11,Boshoff & Fourie factor cost,1.57,1.57
+1977,,,-0.92,,,-0.92,Boshoff & Fourie factor cost,2.11,2.11
+1978,,,2.49,,,2.49,Boshoff & Fourie factor cost,-0.92,-0.92
+1979,,,3.54,,,3.54,Boshoff & Fourie factor cost,2.49,2.49
+1980,,,7.5,,,7.5,Boshoff & Fourie factor cost,3.54,3.54
+1981,,,4.92,,,4.92,Boshoff & Fourie factor cost,7.5,7.5
+1982,,,-1.91,,,-1.91,Boshoff & Fourie factor cost,4.92,4.92
+1983,,,-1.22,,,-1.22,Boshoff & Fourie factor cost,-1.91,-1.91
+1984,,,4.44,,,4.44,Boshoff & Fourie factor cost,-1.22,-1.22
+1985,,,-1.48,,,-1.48,Boshoff & Fourie factor cost,4.44,4.44
+1986,,,-0.07,,,-0.07,Boshoff & Fourie factor cost,-1.48,-1.48
+1987,,,2.24,,,2.24,Boshoff & Fourie factor cost,-0.07,-0.07
+1988,,,2.93,,,2.93,Boshoff & Fourie factor cost,2.24,2.24
+1989,,,1.46,,,1.46,Boshoff & Fourie factor cost,2.93,2.93
+1990,,,0.11,,,0.11,Boshoff & Fourie factor cost,1.46,1.46
+1991,,,-0.35,,,-0.35,Boshoff & Fourie factor cost,0.11,0.11
+1992,,,-1.3,,,-1.3,Boshoff & Fourie factor cost,-0.35,-0.35
+1993,,,0.41,,4.67,0.41,Boshoff & Fourie factor cost,-1.3,-1.3
+1994,12.71,,2.58,4.0,3.99,2.58,Boshoff & Fourie factor cost,0.41,0.41
+1995,10.91494333110341,,3.07,5.8,3.76,3.07,Boshoff & Fourie factor cost,2.58,2.58
+1996,7.69267751156022,,4.59,8.52,4.0,4.59,Boshoff & Fourie factor cost,3.07,3.07
+1997,4.8290808147628095,,2.28,8.15,2.85,2.28,Boshoff & Fourie factor cost,4.59,4.59
+1998,-1.926040061633283,,-0.1,11.85,2.18,-0.1,Boshoff & Fourie factor cost,2.28,2.28
+1999,-3.1666581138212635,,1.97,9.43,1.59,1.97,Boshoff & Fourie factor cost,-0.1,-0.1
+2000,8.14373942642832,4.199991816546134,4.27,6.51,1.7,4.199991816546134,SARB market prices,1.97,1.97
+2001,6.3788722943886045,2.699976792956371,3.09,5.22,1.17,2.699976792956371,SARB market prices,4.199991816546134,4.27
+2002,2.476222874232814,3.700385353468016,3.65,3.05,0.93,3.700385353468016,SARB market prices,2.699976792956371,3.09
+2003,8.307629533320426,2.949071458206065,2.75,5.66,1.77,2.949071458206065,SARB market prices,3.700385353468016,3.65
+2004,14.726531446249735,4.554579908584455,3.43,6.39,1.13,4.554579908584455,SARB market prices,2.949071458206065,2.75
+2005,13.147605491132431,5.277045017732318,4.71,3.72,0.26,5.277045017732318,SARB market prices,4.554579908584455,3.43
+2006,10.222141332257715,5.603811913548951,5.6,2.97,-0.34,5.603811913548951,SARB market prices,5.277045017732318,4.71
+2007,8.559857190672759,5.360465377719681,5.58,2.57,-0.47,5.360465377719681,SARB market prices,5.603811913548951,5.6
+2008,9.034944739173412,3.1910370014021083,4.35,0.12,0.86,3.1910370014021083,SARB market prices,5.360465377719681,5.58
+2009,-12.844908354336836,-1.5380860372302352,-0.99,1.11,5.42,-1.5380860372302352,SARB market prices,3.1910370014021083,4.35
+2010,-1.8962686744720791,3.039746178730751,2.99,2.03,4.19,3.039746178730751,SARB market prices,-1.5380860372302352,-0.99
+2011,5.340174000467401,3.168552434167582,2.27,0.5,4.26,3.168552434167582,SARB market prices,3.039746178730751,2.99
+2012,3.925840810577186,2.396215931160084,2.25,-0.35,4.53,2.396215931160084,SARB market prices,3.168552434167582,2.27
+2013,4.162806621823023,2.4854738691628686,2.17,-0.7,3.74,2.4854738691628686,SARB market prices,2.396215931160084,2.25
+2014,-0.8934475358171712,1.4138281208779135,1.48,-0.48,3.91,1.4138281208779135,SARB market prices,2.4854738691628686,2.17
+2015,-1.8771374336944424,1.3218757778267642,0.87,1.32,3.43,1.3218757778267642,SARB market prices,1.4138281208779135,1.48
+2016,-0.8400153489195095,0.6645414069376132,0.24,0.56,3.2,0.6645414069376132,SARB market prices,1.3218757778267642,0.87
+2017,2.1157231594692183,1.1579555032829036,1.83,1.58,4.07,1.1579555032829036,SARB market prices,0.6645414069376132,0.24
+2018,2.3169328521443378,1.556766751775207,,1.88,4.33,1.556766751775207,SARB market prices,1.1579555032829036,1.83
+2019,1.6931686029775903,0.2599423463449657,,2.52,6.18,0.2599423463449657,SARB market prices,1.556766751775207,
+2020,-14.575112706329485,-6.16892544768195,,0.91,9.18,-6.16892544768195,SARB market prices,0.2599423463449657,
+2021,-0.6247224866959278,4.858652971561317,,-0.96,4.78,4.858652971561317,SARB market prices,-6.16892544768195,
+2022,6.531244651030455,2.058152452287976,,-1.61,4.77,2.058152452287976,SARB market prices,4.858652971561317,
+2023,2.55741454070455,0.8060938277398622,,2.0,4.37,0.8060938277398622,SARB market prices,2.058152452287976,
+2024,-4.236098394677413,0.5348515623114114,,3.72,4.53,0.5348515623114114,SARB market prices,0.8060938277398622,
+2025,-2.938151996090677,1.1146274242122889,,4.25,,1.1146274242122889,SARB market prices,0.5348515623114114,

@@ -1,0 +1,25 @@
+regime,date,formal_nonagric_employment_thousand,growth_pct,source
+OHS,1996,,,Nattrass 1996 GEAR table (actual, own units - see Part1 table growth pcts)
+OHS,1997,,,Nattrass 1996 GEAR table
+OHS,1998,,,Nattrass 1996 GEAR table
+OHS,1999,,,Nattrass 1996 GEAR table
+LFS,2000-02,6678,,StatsSA LFS Feb2001 report Table C/E
+LFS,2000-09,6842,,StatsSA LFS Feb2001 report Table C/E
+LFS,2001-03,6808,,StatsSA LFS March2007 report Table I
+LFS,2002-03,7097,4.24,StatsSA LFS March2007 report Table I
+LFS,2003-03,7228,1.85,StatsSA LFS March2007 report Table I
+LFS,2004-03,7483,3.53,StatsSA LFS March2007 report Table I
+LFS,2005-03,7750,3.57,StatsSA LFS March2007 report Table I
+LFS,2006-03,8059,3.99,StatsSA LFS March2007 report Table I
+LFS,2007-03,8423,4.52,StatsSA LFS March2007 report Table I
+QLFS_household,2008-Q1,8054,,StatsSA QLFS 2008 supplementary report (household basis - NOT comparable to QES)
+QLFS_household,2008-Q2,8157,,StatsSA QLFS 2008 supplementary report (household basis - NOT comparable to QES)
+QES,2010-03,8086,,StatsSA QES March2011 report Table A
+QES,2010-12,8251,,StatsSA QES March2011 report Table A
+QES,2011-03,8298,2.62,StatsSA QES March2011 report Table A
+QES,2014-03,8985,,StatsSA QES March2015 report Table A
+QES,2014-12,8986,,StatsSA QES March2015 report Table A
+QES,2015-03,8942,-0.48,StatsSA QES March2015 report Table A
+QES,2025-03,10589,,StatsSA QES March2026 report Table A
+QES,2025-12,10548,,StatsSA QES March2026 report Table A
+QES,2026-03,10468,-0.76,StatsSA QES March2026 report Table A

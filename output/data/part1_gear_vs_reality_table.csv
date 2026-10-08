@@ -1,0 +1,9 @@
+year,1996,1996,1997,1997,1998,1998,1999,1999,2000,2000
+,actual_to_1999,gear_target,actual_to_1999,gear_target,actual_to_1999,gear_target,actual_to_1999,gear_target,actual_to_1999,gear_target
+indicator,,,,,,,,,,
+real_gdp_growth_pct,4.2,3.5,2.5,2.9,0.6,3.8,1.2,4.9,3.0,6.1
+real_private_investment_growth_pct,6.1,9.3,4.7,9.1,-2.9,9.3,-4.4,13.9,5.0,17.0
+nonagric_formal_employment_growth_pct,-0.7,1.3,-1.7,3.0,-3.7,2.7,-3.2,3.5,,4.3
+inflation_cpi_pct,7.4,8.0,8.6,9.7,6.9,8.1,5.2,7.7,5.3,7.6
+deficit_pct_gdp,4.9,5.1,4.6,4.0,3.3,3.5,2.6,3.0,2.0,3.0
+real_bank_rate_pct,8.8,7.0,7.4,5.0,8.1,4.0,7.3,3.0,6.51,3.0

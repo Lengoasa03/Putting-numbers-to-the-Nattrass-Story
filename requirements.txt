@@ -1,0 +1,12 @@
+# Core analysis (needed to run the three notebooks)
+pandas==3.0.6
+numpy==2.5.3
+statsmodels==0.15.0
+matplotlib==3.11.2
+scipy==1.18.1
+
+# Document generation (needed only for the scripts in output/scripts/ that
+# build the .docx report and the .pdf disclosure). Not installed in the
+# environment these versions were recorded from, so left unpinned.
+python-docx
+fpdf2
