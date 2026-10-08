@@ -155,3 +155,14 @@ Claude (Anthropic) was used for code, for locating figures inside long primary
 sources, and for editing. Every number in the report comes from running the
 included code on the cited data. The interpretation and the conclusions are
 mine. `output/report/AI_use_disclosure.pdf` sets this out in full.
+
+## Licence
+
+The code and the write-up are released under the MIT Licence (see `LICENSE`),
+so you are free to reuse them with attribution.
+
+This does not extend to the source data. The series in `resources/data/` remain
+the property of the South African Reserve Bank and Statistics South Africa and
+are included here only so the analysis can be reproduced. Cite them from the
+original publishers, listed under **Data sources** above, rather than from this
+repository.
